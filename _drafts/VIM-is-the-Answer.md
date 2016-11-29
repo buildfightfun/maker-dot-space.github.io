@@ -1,5 +1,6 @@
 ---
-published: false
+title: Vim Is The Answer
+date: 2016-11-29 23:25:33.876000000 Z
 ---
 
 ## VIM is the Answer

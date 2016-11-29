@@ -1,6 +1,7 @@
 ---
-layout: post
 title: A Draft Template
+date: 2016-11-29 23:25:33.917000000 Z
+layout: post
 ---
 
 A rough draft lives here. 

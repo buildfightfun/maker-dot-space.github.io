@@ -1,6 +1,7 @@
 ---
-layout: post
 title: A Post Template
+date: 2014-06-12 00:00:00 Z
+layout: post
 author: Ankur Gupta
 ---
 

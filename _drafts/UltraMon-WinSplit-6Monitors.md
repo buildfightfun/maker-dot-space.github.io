@@ -1,7 +1,7 @@
 ---
-published: true
-layout: post
 title: UltraMon + WinSplit + 6 Monitors = Happy!
+date: 2014-08-31 00:00:00 Z
+layout: post
 author: Brian Boatright
 excerpt: My 10yr Multi-Monitor Evolution
 ---

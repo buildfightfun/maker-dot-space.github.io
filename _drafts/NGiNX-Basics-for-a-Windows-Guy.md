@@ -1,5 +1,6 @@
 ---
-published: false
+title: Nginx Basics For A Windows Guy
+date: 2016-11-29 23:25:33.843000000 Z
 ---
 
 ## NGiNX Basics for a Windows Guy

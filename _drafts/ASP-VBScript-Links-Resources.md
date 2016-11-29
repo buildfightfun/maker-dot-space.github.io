@@ -1,7 +1,7 @@
 ---
-published: true
-layout: post
 title: ASP VBScript Links & Resources
+date: 2012-03-16 00:00:00 Z
+layout: post
 author: Brian Boatright
 excerpt: Collection of Classic ASP (VBScript) classes, functions, and helpful scripts.
 ---
