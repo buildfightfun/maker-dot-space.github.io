@@ -1,23 +1,39 @@
----
-title: MAKER.space | Resources for Makers & Hackers
-layout: page
----
+<html>
+<head>
+    <title></title>
+    <style>
+	    body {
+		    background-image: url("background.gif");
+		    padding: 0;
+		    margin: 0;
+	    }
 
-<h2>Welcome Makers!</h2>
+        footer {
+	        font-family: Arial, Sans-Serif;
+	        color: #b5b7b9;
+	        background-color: #404041;
+	        text-align: center;
+	        position: absolute;
+	        bottom: 0;
+	        width: 100%;
+	        line-height: 45px;
+        }
 
-<p>Thankfully the owner of this domain (<a style="color:#666;" href="http://twitter.com/briankb">@briankb</a>) is a MAKER and will use this awesome domain for the good of the Maker community. Initial use will be to allow verified non-profit Maker and Hacker spaces to create and use a subdomain from the maker.space TLD. We will also setup a currated directory to those and other websites. This page is hosted via Github Pages, feel free to make updates and send a pull request. A Logo competition is forth coming but again feel free to send your ideas on our github repo as a Issue or Pull Request</p>
+        .splash {
+	        position: fixed;
+	        top: 50%;
+	        left: 50%;
+	        /* bring your own prefixes */
+	        transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    
+<div class="splash">
+    <img src="makerspace.png"/>
+</div>
+<footer>Copyright &copy; Maker.Space 2018</footer>
 
-
-
-<section id="downloads" class="clearfix">
-          <a href="https://github.com/maker-dot-space" id="view-on-github" class="button"><span>View on GitHub</span></a>
- </section>
-
-<dl class="posts">
-  {% for post in site.posts %}
-    <dt><a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-    <p class="authorline">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
-    </dt>
-    <dd>{{ post.excerpt }}</dd><br/>
-  {% endfor %}
-</dl>
+</body>
+</html>
